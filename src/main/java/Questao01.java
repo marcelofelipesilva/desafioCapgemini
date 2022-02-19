@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Questao01 {
 
-    public String escada(int n){
+    public static LinkedList<String> escada(int n){
 
         // adicionando variáveis
         LinkedList<String> palavra = new LinkedList<String>();
-        String resultado="";
+        LinkedList<String> resultado = new LinkedList<String>();
 
         // adicinando espaços
         for (int i = 0; i < n; i++) {
@@ -20,10 +20,10 @@ public class Questao01 {
             palavra.removeFirst();
 
             for (String p : palavra) {
-                resultado+=p;
+                resultado.add(p);
                 System.out.print(p);
             }
-            resultado+="\n";
+
             System.out.println();
         }
 
