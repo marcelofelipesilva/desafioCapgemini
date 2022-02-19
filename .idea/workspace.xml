@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69939366-7f13-4195-8af4-032afe49af64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Questao01Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Questao01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Questao01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Questao01Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Questao01Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Questao01Test.escadaMetodoTest">
+  <component name="RunManager" selected="JUnit.Questao01Test">
     <configuration name="Questao01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Questao01" />
       <module name="desafioCapgemini" />
@@ -107,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Questao01Test" />
         <item itemvalue="JUnit.Questao01Test.escadaMetodoTest" />
         <item itemvalue="Application.Questao01" />
-        <item itemvalue="JUnit.Questao01Test" />
         <item itemvalue="JUnit.Questao01Test.escada" />
       </list>
     </recent_temporary>
@@ -126,7 +125,7 @@
       <workItem from="1645276903042" duration="1169000" />
       <workItem from="1645278162751" duration="5218000" />
       <workItem from="1645283790546" duration="191000" />
-      <workItem from="1645291860652" duration="4635000" />
+      <workItem from="1645291860652" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="Commit incial do projeto.">
       <created>1645277719328</created>
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645292102137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atualizando test">
+      <created>1645296705632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645296705632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,7 @@
     <MESSAGE value="Commit incial do projeto." />
     <MESSAGE value="adicionado Questao01.java" />
     <MESSAGE value="atualizando" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizando" />
+    <MESSAGE value="atualizando test" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizando test" />
   </component>
 </project>

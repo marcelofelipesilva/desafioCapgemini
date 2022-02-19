@@ -7,8 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Questao01Test {
 
-    Questao01 questao01 = new Questao01();
-
     @Test
     void escadaMetodoTest() {
 
