@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69939366-7f13-4195-8af4-032afe49af64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Questao02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Questao02Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Questao01Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Questao01Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Questao01Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Questao01Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Questao01Test">
+  <component name="RunManager" selected="JUnit.Questao02Test">
     <configuration name="Questao01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Questao01" />
       <module name="desafioCapgemini" />
@@ -104,8 +107,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Questao02Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desafioCapgemini" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Questao02Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Questao02Test" />
         <item itemvalue="JUnit.Questao01Test" />
         <item itemvalue="JUnit.Questao01Test.escadaMetodoTest" />
         <item itemvalue="Application.Questao01" />
@@ -125,7 +138,7 @@
       <workItem from="1645276903042" duration="1169000" />
       <workItem from="1645278162751" duration="5218000" />
       <workItem from="1645283790546" duration="191000" />
-      <workItem from="1645291860652" duration="4863000" />
+      <workItem from="1645291860652" duration="6501000" />
     </task>
     <task id="LOCAL-00001" summary="Commit incial do projeto.">
       <created>1645277719328</created>
@@ -155,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645296705632</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="atualizando test">
+      <created>1645296773456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645296773456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
