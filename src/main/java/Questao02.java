@@ -13,6 +13,18 @@ public class Questao02 {
       return numero;
   }
 
+  public static boolean testeSenhaForte(String senha){
+      String regex = "^(?=.*[0-9])"
+              + "(?=.*[a-z])(?=.*[A-Z])"
+              + "(?=.*[@#$%^&+=])"
+              + "(?=\\S+$).{6,20}$";
+
+      if (senha.matches(regex)){
+          System.out.println("Senha Forte!");
+      }else { System.out.println("Senha Fraca!");}
+      return senha.matches(regex);
+  }
+
 
     public static void main(String[] args) {
 
@@ -20,6 +32,10 @@ public class Questao02 {
         String senha = leitor.nextLine();
         Questao02  questao02 = new Questao02();
         questao02.testeTamanhoSenha(senha);
+
+        questao02.testeSenhaForte(senha);
+
+
 
 
 

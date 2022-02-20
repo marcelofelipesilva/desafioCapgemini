@@ -12,4 +12,14 @@ class Questao02Test {
         Assertions.assertEquals(resultadoEsperado,resultadoAtual);
 
     }
+
+    @Test
+    void testeSenhaForte(){
+        String senha = "Ac#123";
+        boolean resultadoEsperado = true ;
+        boolean resultadoAtual = Questao02.testeSenhaForte(senha);
+
+        Assertions.assertEquals(resultadoEsperado,resultadoAtual);
+
+    }
 }
