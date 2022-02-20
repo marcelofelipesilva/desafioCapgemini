@@ -7,7 +7,7 @@ class Questao02Test {
     void testeTamanhoSenha() {
         String senha = "Ya3";
         int resultadoEsperado = 6 - senha.length();
-        int resultadoAtual = Questao02.testeTamanhoSenha("Ya3");
+        int resultadoAtual = Questao02.testeTamanhoSenha(senha);
 
         Assertions.assertEquals(resultadoEsperado,resultadoAtual);
 
