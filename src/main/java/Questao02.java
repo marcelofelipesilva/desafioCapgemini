@@ -30,10 +30,10 @@ public class Questao02 {
 
         Scanner leitor = new Scanner(System.in);
         String senha = leitor.nextLine();
-        Questao02  questao02 = new Questao02();
-        questao02.testeTamanhoSenha(senha);
 
-        questao02.testeSenhaForte(senha);
+       testeTamanhoSenha(senha);
+
+       testeSenhaForte(senha);
 
 
 
