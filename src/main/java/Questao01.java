@@ -35,6 +35,7 @@ public class Questao01 {
         // adicionando variáveis
         Scanner leitor = new Scanner(System.in);
         int n = leitor.nextInt();
+        //instanciando a classe e invocando o metodo escada.
         Questao01 questao01 = new Questao01();
         questao01.escada(n);
 
